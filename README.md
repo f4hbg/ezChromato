@@ -31,9 +31,9 @@ successfully tested on Perkin Elmer Autosampler XL and HP5890
 
 The acquisition is made from the 0/1Volt output of any chromatograph by the ADS1220 24-bit ADC
 
-Computer is simply connected trough the Arduino USB cable (main schema in the ./ezChromato/docs folder, SPI wiring in .ino file)
+Computer is simply connected trough the Arduino USB cable (schematics in the ./ezChromato/docs folder, SPI wiring in .ino file)
 
-In order to have a minimal automation, the chromatograph should also be connected via the READY and START NC/NO connectors, but if you don't have those it's not a problem, just put a permanent cable beetwen pin D4 and GND of the arduino and it will send measures in continuous mode
+In order to have minimal automation, the chromatograph should also be connected via the READY and START NC/NO connectors, but if you don't have those it's not a problem, just put a permanent cable beetwen pin D4 and GND, and the arduino will send measures in continuous mode
 
 ## bash script
 
