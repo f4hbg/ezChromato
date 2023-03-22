@@ -4,7 +4,7 @@
 
 sudo apt install gnuplot-qt smbclient
 
-**2) add your user to the 'dialout' group to access usb**
+**2) add your user to the 'dialout' group to access usb (debian & ubuntu)**
 
 sudo usermod -a -G dialout $USER
 
