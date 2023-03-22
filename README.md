@@ -11,7 +11,7 @@ acquisition from any chromatograph 0/1Volt output
 
 no drivers (except arduino), no card, no special cable needed
 
-very simple wiring (just need one Arduino UNO, one ADS1220 and 3 discrete components)
+very simple wiring (just needs one Arduino UNO, one ADS1220 and 3 discrete components)
 
 up to 20 samples/seconde (20Hz)
 
