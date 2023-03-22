@@ -7,7 +7,7 @@ ezChromato is a very simple open source DIY chromatography solution based on :
 
 ---
 
-acquisition from any chromatograph 0/1Volt output
+captures from any chromatograph 0/1Volt output
 
 no drivers (except arduino), no card, no special cable needed
 
