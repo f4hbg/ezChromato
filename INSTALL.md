@@ -34,7 +34,7 @@ the live graph windows (gnuplot-qt) will open in fullscreen, and shows the messa
 
 graph begins automatically when cromatography begins, the windows close after specified analysis time
 
--
+--
 
 ./ezchromato_multi.sh 7
 
