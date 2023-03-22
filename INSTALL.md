@@ -1,20 +1,20 @@
 # ezChromato installation
 
-**app needed**
+**1) app needed**
 
 sudo apt install gnuplot-qt smbclient
 
-**add your user to the 'dialout' group to access usb**
+**2) add your user to the 'dialout' group to access usb**
 
 sudo usermod -a -G dialout $USER
 
 (need reboot)
 
-**avoid /dev/ttyUSB0 disconnections on ubuntu**
+**3) avoid /dev/ttyUSB0 disconnections on ubuntu**
 
 sudo apt remove brltty
 
-**give execution rights to both .sh files**
+**4) give execution rights to both .sh files**
 
 chmod 777 ezchromato.sh
 
