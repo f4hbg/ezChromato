@@ -7,30 +7,28 @@ ezChromato is a very simple open source DIY chromatography solution based on :
 
 acquisition from any chromatograph 0/1Volt output
 
+no card, no drivers (except arduino), no special cable needed
+
 up to 20 samples/seconde (20Hz)
 
 use simple ASCII files/stream
 
-no card, no drivers (except arduino), no special cable needed
+very simple Arduino and ADS1220 wiring
 
-Arduino / ADS1220 wiring very simple and straightforward (schema provided in docs folder)
-
-auto file network transfer after each acquisition
+network file transfer at the end of each acquisition
 
 ## Arduino acquisition
 
-The acquisition is made from the 0/1Volt output of any chromatograph trough the ADS1220 24-bit ADC - Arduino USB cable
+The acquisition is made from the 0/1Volt output of any chromatograph by the ADS1220 24-bit ADC
 
-Schema and wiring are given in the ./ezChromato/docs folder
+Copmuter is connected trough the Arduino USB cable (main schema in the ./ezChromato/docs folder, SPI wiring in .ino file)
 
-Autosampler compatible if you have access to READY and START NC/NO outputs of the chromatograph
-
-Tested on Perkin Elmer Autosampler XL and HP5890
+Autosampler compatible if you have access to READY and START NC/NO outputs on your chromatograph (successfully tested on Perkin Elmer Autosampler XL and HP5890)
 
 ## bash script
 
 - ezchromato.sh is the main script and provide an simple UI to name and set analyse time
-- ezchromato_multi.sh autosampler/continuous script will indefinitely loop and is meant to be used with an autosampler in autonomous mode
+- ezchromato_multi.sh is an autosampler/continuous script that will indefinitely loop and is meant to be used with an autosampler in autonomous mode
 
 Data are recorded on the computer in ASCII files in the folder ./ezChromato/data
 
