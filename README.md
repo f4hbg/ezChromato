@@ -45,4 +45,4 @@ Any software able to import ASCII files can be use, i only have experienced two 
 
 ---
 
-If you enjoy or have a question, don't hesitate to contact me, it's always a pleasure having feeback
+If you have a question, have successfully tested on a chromatograph or simply enjoyed, don't hesitate to contact me, it's always a pleasure having feeback
