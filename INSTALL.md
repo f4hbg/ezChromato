@@ -1,6 +1,6 @@
 # ezChromato installation
 
-**1) app needed**
+**1) install needed apps**
 
 sudo apt install gnuplot-qt smbclient
 
