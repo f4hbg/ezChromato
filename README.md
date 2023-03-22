@@ -15,7 +15,7 @@ very simple wiring (just needs one Arduino UNO, one ADS1220 and 3 discrete compo
 
 up to 20 samples/seconde (20Hz)
 
-uses simple ASCII files/stream
+uses plain ASCII files/stream
 
 network file transfer at the end of each acquisition
 
