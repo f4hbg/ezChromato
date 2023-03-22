@@ -37,7 +37,7 @@ In order to have minimal automation, the chromatograph should also be connected 
 
 ## bash script
 
-- ezchromato.sh is the main script and provide an simple UI to name and set analyse time
+- ezchromato.sh is the main script and provides an simple UI to name and set analyse time
 - ezchromato_multi.sh is an autosampler/continuous script that will indefinitely loop and is meant to be used with an autosampler in autonomous mode (i mainly use this one in the lab)
 
 At the end of each acquisition, measures are saved on the computer in ASCII files (.fid) in the folder ./ezChromato/data and are also uploaded to an smb server for post-processing on another computer
