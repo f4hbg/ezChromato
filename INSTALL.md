@@ -34,9 +34,12 @@ the live graph windows (gnuplot-qt) will open in fullscreen, and shows the messa
 
 graph begins automatically when cromatography begins, the windows close after specified analysis time
 
+-
 
 ./ezchromato_multi.sh 7
 
 will launch infinite acquisition loop with 7 minutes analysis time
+
+---
 
 in all cases, files are stored in ./ezChromato/data folder, and send via network to smb server if you activated the option
