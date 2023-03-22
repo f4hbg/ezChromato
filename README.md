@@ -13,17 +13,19 @@ use simple ASCII files/stream
 
 no card, no drivers (except arduino), no special cable needed
 
-Arduino / ADS1220 wiring very simple and straightforward (Fritzing schema provided)
+Arduino / ADS1220 wiring very simple and straightforward (schema provided in docs folder)
 
 auto file network transfer after each acquisition
 
 ## Arduino acquisition
 
-The acquisition is made from the 0/1Volt output of any chromatograph trough the ADS1220 24-bit ADC - Arduino USB cable.
+The acquisition is made from the 0/1Volt output of any chromatograph trough the ADS1220 24-bit ADC - Arduino USB cable
 
 Schema and wiring are given in the ./ezChromato/docs folder
 
 Autosampler compatible if you have access to READY and START NC/NO outputs of the chromatograph
+
+Tested on Perkin Elmer Autosampler XL and HP5890
 
 ## bash script
 
