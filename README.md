@@ -7,13 +7,13 @@ ezChromato is a very simple open source DIY chromatography solution based on :
 
 acquisition from any chromatograph 0/1Volt output
 
-no card, no drivers (except arduino), no special cable needed
+no drivers (except arduino), no card, no special cable needed
 
 up to 20 samples/seconde (20Hz)
 
-use simple ASCII files/stream
+uses simple ASCII files/stream
 
-very simple Arduino and ADS1220 wiring
+very simple Arduino and ADS1220 wiring (only 3 components)
 
 network file transfer at the end of each acquisition
 
@@ -38,10 +38,11 @@ File can be uploaded to an smb server at the end of each acquisition, for post-p
 
 Any software able to import ASCII files can be use, i only have experienced two for now :
  
-- ezData freeware : i like his ultra simplicity, it's ok to rapidly identify products but that's almost all
-- Unichrom : works very well and is far more advanced, calibration curves, internal standard management, pdf reports, etc...
+- ezData freeware : i love his ultra simplicity, works well to rapidly identify products and visualize graphs
+- Unichrom : far more advanced with calibration curves, internal standard management, pdf reports, etc...
+(you can directly make acquisition from Unichrom with the Arduino / ADS1220 without using the linux script)
 (free full post-processing / acquisition limited to 3mn in free mode)
-(if you have a licence you can directly make acquisition from Unichrom with the Arduino / ADS1220 without using the linux script)
 
+---
 
 If you enjoy or have a question, don't hesitate to contact me, it's always a pleasure having feeback
