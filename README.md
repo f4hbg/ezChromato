@@ -5,7 +5,7 @@ ezChromato is a very simple open source DIY chromatography solution based on :
 - an Arduino / ADS1220 24-bit ADC for acquisition
 - a linux bash script UI for data recording and live graph
 
-acquisition from any 0/1Volt output machine
+acquisition from any chromatograph 0/1Volt output
 
 up to 20 samples/seconde (20Hz)
 
