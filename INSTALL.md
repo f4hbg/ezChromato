@@ -49,23 +49,30 @@ et voilà !
 ```
  ./ezchromato.sh
  ```
-will launch the console UI, at the first step (gc id) you have two choices :
-give an name/gc_id of your choice, or just type enter to use timestamp 
+launch the console UI
 
-then you have to give the time of analysis (in upper round minutes)
+at the first step (gc id) you have two choices :
+
+- just type enter to use timestamp and autoincrement number as filename
+
+- provide complete informations (gc_id/column/method/attenuation/standard) that will be used as filename
+
+then you have to give the duration of the analysis (in upper round minutes)
 
 the live graph windows (gnuplot-qt) opens in fullscreen, and shows the message "waiting for data" in the right upper corner
 
-graph starts automatically when analysis begins, the windows close after specified analysis time
+graph starts automatically when analysis begins, the windows closes after specified analysis time
 
 
 ```
 ./ezchromato_multi.sh 7
 ```
-will launch infinite acquisition loop with 7 minutes analysis time
+launch infinite auto acquisition loop with 7 minutes analysis time
 
-if you are lucky enough to have an autosampler you can leave the machine to run on its own and go to the beach
+so if you are lucky enough to have an autosampler, you can let the machine work by itself and go to the beach :)
+
+to stop it, minimize the gnuplot windows and ctrl-c the console
 
 ---
 
-in all cases, files are stored in ./ezChromato/data folder, and send via network to smb server if you activated the option
+output files are stored in ./ezChromato/data folder (and are sent via network to a smb server if you activated the option)
