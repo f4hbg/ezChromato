@@ -9,10 +9,15 @@ schematics are located in the ./ezChromato/docs folder and SPI wiring is detaill
 test process : put a wire between pin D4 and GND, and the arduino should start sending measurements on the virtual port /dev/ttyUSB0, open Arduino IDE serial monitor (or any serial software) at 115200 bauds (8N1), and received data should look like this :
 
 0.02436
+
 0.02392
+
 0.02419
+
 0.02381
+
 0.02439
+
 ...
 
 if nothing appends, check wiring, linux permissions, and be sure there is a connection on the START connector (pin D4 / GND) during tests
