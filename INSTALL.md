@@ -31,7 +31,7 @@ sudo apt install gnuplot-qt smbclient
 ```
 sudo usermod -a -G dialout $USER
 ```
-(need reboot)
+(needs reboot)
 
 **3) avoid /dev/ttyUSB0 disconnections on ubuntu**
 ```
