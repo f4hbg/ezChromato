@@ -42,6 +42,9 @@ sudo apt remove brltty
 chmod 777 ezchromato.sh
 chmod 777 ezchromato_multi.sh
 ```
+
+et voilà !
+
 ## usage examples
 ```
  ./ezchromato.sh
