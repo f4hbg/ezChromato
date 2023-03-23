@@ -27,20 +27,24 @@ and a linux bash script UI for data recording and live graph
 
 ## arduino acquisition
 
-The acquisition is made by the ADS1220 24-bit ADC from the 0/1Volt output of any chromatograph, and computer is simply connected trough the Arduino USB cable
+The acquisition is made by the ADS1220 24-bit ADC from the 0/1Volt output of any chromatograph
 
-In order to have minimum automation and for autosampler use, the arduino must also be connected via the READY and START NC/NO connectors of your chromatograph, but if you don't have them, it's not a problem, just put a permanent wire between pin D4 and GND, and the arduino will send measurements in continuous mode
+Computer is simply connected trough the Arduino USB cable :)
+
+In order to have minimum automation (auto start, ready init), the arduino must also be wired to the READY and START NC/NO connectors of your chromatograph (mandatory for autosampler use)
+
+If you don't have them, it's not a dead end, just put a permanent wire between pin D4 and GND. ezChromato will then work in degraded mode (mainly because the arduino will send measurements all the time, even in idle mode), in this case you will have to launch aquisition on the chromatograph and ezChromato at the exact same time
 
 ## bash script
 
-- ezchromato.sh is the main script and provides a simple UI to make a single analysis
+- ezchromato.sh is the main script and provides a simple UI to make single analysis
 - ezchromato_multi.sh is the autosampler version and will loop indefinitely (i mainly use this one in the lab)
 
-At the end of each acquisition, the measurements are saved in the ./ezChromato/data folder in ASCII files (.fid) and are optionally  uploaded to an smb server (for post-processing on another computer)
+At the end of each acquisition, measurements are saved in the ./ezChromato/data folder in text files (.fid) and are optionally  uploaded to an smb server (for post-processing on another computer)
 
 ## visualisation and post-processing
 
-Any software able to import ASCII files can be used, i've only tried two so far :
+Any software able to import text files can be used, i've only tried two so far :
  
 - ezData : unmaintened old freeware but i love its simplicity, works well to visualize graphs and quickly identify products
 - Unichrom : far more advanced software with calibration curves, internal standard management, pdf reports, etc...
