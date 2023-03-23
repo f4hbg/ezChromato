@@ -25,20 +25,22 @@ chmod 777 ezchromato_multi.sh
 
  ./ezchromato.sh
  
-will launch the console UI, at the first input (gc id) you have two naming choices :
-give an id of your choice, or just type enter to use timestamp 
+will launch the console UI, at the first step (gc id) you have two choices :
+give an name/gc_id of your choice, or just type enter to use timestamp 
 
-then you have to give the time of analysis in round minutes
+then you have to give the time of analysis (in upper round minutes)
 
-the live graph windows (gnuplot-qt) will open in fullscreen, and shows the message "waiting for data" in the right upper corner
+the live graph windows (gnuplot-qt) opens in fullscreen, and shows the message "waiting for data" in the right upper corner
 
-graph begins automatically when cromatography begins, the windows close after specified analysis time
+graph starts automatically when analysis begins, the windows close after specified analysis time
 
 --
 
 ./ezchromato_multi.sh 7
 
 will launch infinite acquisition loop with 7 minutes analysis time
+
+if you are lucky enough to have an autosampler you can leave the machine to run on its own and go to the beach
 
 ---
 
