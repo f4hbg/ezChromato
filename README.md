@@ -47,7 +47,7 @@ Any software able to import ASCII files can be used, i've only tried two so far 
 - ezData : unmaintened old freeware but i love its simplicity, works well to visualize graphs and quickly identify products
 - Unichrom : far more advanced software with calibration curves, internal standard management, pdf reports, etc...
 
-Note that you can directly do live capture with Unichrom and without using the linux script (this is probably the only easy way to use ezChromato hardware on Windows), in this case put a permanent cable between pin D4 and GND, in order to put the arduino in continuous mode (ATTENTION : Unichrom offers full post-processing for free, but capture is limited to 3mn without licence)
+Note that you can directly do live capture with Unichrom and without using the linux script (this is one of the ways to use ezChromato hardware on Windows), in this case put a permanent cable between pin D4 and GND, in order to put the arduino in continuous mode (ATTENTION : Unichrom offers full post-processing for free, but capture is limited to 3mn without licence)
 
 ---
 
