@@ -15,7 +15,7 @@ and a linux bash script UI for data recording and live graph
 
 - up to 20 samples/seconde (20Hz)
 
-- uses plain ASCII files/stream
+- uses plain text ASCII files/stream
 
 - autosampler compatible*
 
