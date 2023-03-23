@@ -31,7 +31,7 @@ The acquisition is made by the ADS1220 24-bit ADC from the 0/1Volt output of any
 
 Computer is simply connected trough the Arduino USB cable :)
 
-In order to have minimum automation (auto start, ready init), the arduino must also be wired to the READY and START NC/NO connectors of your chromatograph (mandatory for autosampler use)
+In order to have minimum automation (auto start, ready init) the arduino must also be wired to the READY and START NC/NO connectors of your chromatograph (mandatory for autosampler use)
 
 If you don't have them, it's not a dead end, just put a permanent wire between pin D4 and GND. ezChromato will then work in degraded mode (mainly because the arduino will send measurements all the time, even in idle mode), in this case you will have to launch aquisition on the chromatograph and ezChromato at the exact same time
 
