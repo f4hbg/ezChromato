@@ -19,7 +19,7 @@ uses plain ASCII files/stream
 
 autosampler compatible*
 
-post-processing on any software compatible with ASCII files
+post-processing on any ASCII files compatible software
 
 successfully tested on Perkin Elmer Autosampler XL and HP5890
 
