@@ -17,11 +17,9 @@ up to 20 samples/seconde (20Hz)
 
 uses plain ASCII files/stream
 
-network file transfer at the end of each acquisition
+autosampler compatible*
 
-final visualisation and post-processing on any software compatible with ASCII files
-
-autosampler compatible if you have access to READY and START NC/NO outputs on your chromatograph
+post-processing on any software compatible with ASCII files
 
 successfully tested on Perkin Elmer Autosampler XL and HP5890
 
@@ -33,7 +31,7 @@ The acquisition is made from the 0/1Volt output of any chromatograph by the ADS1
 
 Computer is simply connected trough the Arduino USB cable (schematics are in the ./ezChromato/docs folder, SPI wiring is detailled in the ezchromato.ino file)
 
-In order to have minimal automation, the chromatograph should also be connected via the READY and START NC/NO connectors, but if you don't have those it's not a problem, just put a permanent cable beetwen pin D4 and GND, and the arduino will send measures in continuous mode
+In order to have minimal automation or for autosampler use, the chromatograph need to be also connected via the READY and START NC/NO connectors, but if you don't have those it's not a problem, just put a permanent cable beetwen pin D4 and GND, and the arduino will send measures in continuous mode
 
 ## bash script
 
