@@ -56,17 +56,17 @@ et voilà !
  ```
 launch the console UI
 
-at the first step (gc id) you have two choices :
+at the first prompt (gc id) you have two choices :
 
-- just type enter to use timestamp and autoincrement number as filename
+- just type enter to use timestamp as filename
 
-- provide complete informations (gc_id/column/method/attenuation/standard) that will be used as filename
+- provide complete informations (gc_id/column/method/attenuation/standard) that will be used in the filename
 
 then you have to give the duration of the analysis (in upper round minutes)
 
 the live graph windows (gnuplot-qt) opens in fullscreen, and shows the message "waiting for data" in the right upper corner
 
-graph starts automatically when analysis begins, the windows closes after specified analysis time
+graph starts automatically when analysis begins, and the windows closes after specified analysis time
 
 ### autosampler analysis
 
@@ -75,7 +75,9 @@ graph starts automatically when analysis begins, the windows closes after specif
 ```
 launch infinite auto acquisition loop with 7 minutes analysis time
 
-so you can let the machine work by itself and go to the beach :)
+timestamp + autoincremented number are used as filename
+
+you can now let the machine work by itself and go to the beach :)
 
 to stop it, minimize the gnuplot windows and ctrl-c the console
 
