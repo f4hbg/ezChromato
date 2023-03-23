@@ -1,6 +1,10 @@
-# ezChromato installation
+## ezChromato installation
 
-**before anything else, connect the USB cable and flash the arduino with the ezchromato.ino file
+# hardware
+
+**when Arduino and ADS1220 wiring is done, connect the USB cable and flash the arduino with the ezchromato.ino file
+
+# sofware
 
 **1) install needed apps**
 
