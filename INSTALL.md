@@ -6,9 +6,12 @@ when Arduino and ADS1220 wiring is done, connect the USB cable and flash the ard
 
 schematics are located in the ./ezChromato/docs folder and SPI wiring is detailled in the ezchromato.ino file
 
-test process : put a wire between pin D4 and GND, and the arduino should start sending measurements on the virtual port /dev/ttyUSB0, open Arduino IDE serial monitor (or any serial software) at 115200 bauds (8N1), and received data should look like this :
+test process : put a wire between pin D4 and GND, and the arduino should start sending measurements on the virtual port /dev/ttyUSB0, open Arduino IDE serial monitor (or any serial software) at 115200 bauds (8N1)
 
-```0.02436
+received data should look like this :
+
+```
+0.02436
 0.02392
 0.02419
 0.02381
