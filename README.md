@@ -31,7 +31,7 @@ The acquisition is made from the 0/1Volt output of any chromatograph by the ADS1
 
 Computer is simply connected trough the Arduino USB cable (schematics are in the ./ezChromato/docs folder, SPI wiring is detailled in the ezchromato.ino file)
 
-In order to have minimal automation or for autosampler use, the chromatograph need to be also connected via the READY and START NC/NO connectors, but if you don't have those it's not a problem, just put a permanent cable beetwen pin D4 and GND, and the arduino will send measures in continuous mode
+In order to have minimum automation and for autosampler use, the arduino must also be connected via the READY and START NC/NO connectors of your chromatograph, but if you don't have them, it's not a problem, just put a permanent cable between pin D4 and GND, and the arduino will send measurements in continuous mode
 
 ## bash script
 
@@ -47,7 +47,7 @@ Any software able to import ASCII files can be used, i've only tried two so far 
 - ezData : unmaintened old freeware but i love its simplicity, works well to visualize graphs and quickly identify products
 - Unichrom : far more advanced software with calibration curves, internal standard management, pdf reports, etc...
 
-Note that you can directly do live capture with Unichrom without using the linux script, and this is probably the only easy way to use ezChromato hardware on Windows (Unichrom offers full post-processing for free, but capture is limited to 3mn without licence)
+Note that you can directly do live capture with Unichrom without using the linux script, and this is probably the only easy way to use ezChromato hardware on Windows (in this case put a permanent cable between pin D4 and GND, in order to put the arduino in continuous mode) (ATTENTION : Unichrom offers full post-processing for free, but capture is limited to 3mn without licence)
 
 ---
 
