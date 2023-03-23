@@ -1,5 +1,7 @@
 # ezChromato installation
 
+**before anything else, connect the USB cable and flash the arduino with the ezchromato.ino file
+
 **1) install needed apps**
 
 sudo apt install gnuplot-qt smbclient
@@ -20,10 +22,7 @@ chmod 777 ezchromato.sh
 
 chmod 777 ezchromato_multi.sh
 
-*don't forget to flash the arduino with ezchromato.ino file
-
 ## usage examples
-
 
  ./ezchromato.sh
  
