@@ -52,7 +52,7 @@ the live graph windows (gnuplot-qt) opens in fullscreen, and shows the message "
 
 graph starts automatically when analysis begins, the windows close after specified analysis time
 
---
+
 ```
 ./ezchromato_multi.sh 7
 ```
