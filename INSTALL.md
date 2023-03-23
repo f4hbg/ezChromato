@@ -43,9 +43,14 @@ chmod 777 ezchromato.sh
 chmod 777 ezchromato_multi.sh
 ```
 
+output files are stored in ./ezChromato/data folder (and are sent via network to a smb server if you activated the option)
+
 et voilà !
 
 ## usage examples
+
+### single analysis
+
 ```
  ./ezchromato.sh
  ```
@@ -63,16 +68,16 @@ the live graph windows (gnuplot-qt) opens in fullscreen, and shows the message "
 
 graph starts automatically when analysis begins, the windows closes after specified analysis time
 
+### autosampler analysis
 
 ```
 ./ezchromato_multi.sh 7
 ```
 launch infinite auto acquisition loop with 7 minutes analysis time
 
-so if you are lucky enough to have an autosampler, you can let the machine work by itself and go to the beach :)
+so you can let the machine work by itself and go to the beach :)
 
 to stop it, minimize the gnuplot windows and ctrl-c the console
 
 ---
 
-output files are stored in ./ezChromato/data folder (and are sent via network to a smb server if you activated the option)
