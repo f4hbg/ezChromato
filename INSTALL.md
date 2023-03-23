@@ -13,36 +13,36 @@ test process : put a wire between pin D4 and GND, and the arduino should start s
 0.02419
 0.02381
 0.02439
-...```
+...
+```
 
 if nothing appends, check wiring, linux permissions, and be sure there is a connection on the START connector (pin D4 / GND) during tests
 
 ### sofware
 
 **1) install needed apps**
-
+```
 sudo apt install gnuplot-qt smbclient
-
+```
 **2) add your user to the 'dialout' group to access usb (debian & ubuntu)**
-
+```
 sudo usermod -a -G dialout $USER
-
+```
 (need reboot)
 
 **3) avoid /dev/ttyUSB0 disconnections on ubuntu**
-
+```
 sudo apt remove brltty
-
+```
 **4) give execution rights to both .sh files**
-
+```
 chmod 777 ezchromato.sh
-
 chmod 777 ezchromato_multi.sh
-
+```
 ## usage examples
-
+```
  ./ezchromato.sh
- 
+ ```
 will launch the console UI, at the first step (gc id) you have two choices :
 give an name/gc_id of your choice, or just type enter to use timestamp 
 
@@ -53,9 +53,9 @@ the live graph windows (gnuplot-qt) opens in fullscreen, and shows the message "
 graph starts automatically when analysis begins, the windows close after specified analysis time
 
 --
-
+```
 ./ezchromato_multi.sh 7
-
+```
 will launch infinite acquisition loop with 7 minutes analysis time
 
 if you are lucky enough to have an autosampler you can leave the machine to run on its own and go to the beach
