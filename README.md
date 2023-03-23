@@ -26,9 +26,7 @@ based on an Arduino / ADS1220 24-bit ADC for acquisition, and a linux bash scrip
 
 ## arduino acquisition
 
-The acquisition is made from the 0/1Volt output of any chromatograph by the ADS1220 24-bit ADC
-
-Computer is simply connected trough the Arduino USB cable (schematics are in the ./ezChromato/docs folder, SPI wiring is detailled in the ezchromato.ino file)
+The acquisition is made by the ADS1220 24-bit ADC from the 0/1Volt output of any chromatograph, and computer is simply connected trough the Arduino USB cable 
 
 In order to have minimum automation and for autosampler use, the arduino must also be connected via the READY and START NC/NO connectors of your chromatograph, but if you don't have them, it's not a problem, just put a permanent wire between pin D4 and GND, and the arduino will send measurements in continuous mode
 
