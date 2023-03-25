@@ -54,7 +54,7 @@ et voilà !
 ```
  ./ezchromato.sh
  ```
-launch the console UI
+this will launch the main console UI
 
 at the first prompt (gc id) you have two choices :
 
@@ -62,7 +62,7 @@ at the first prompt (gc id) you have two choices :
 
 - provide complete informations (gc_id/column/method/attenuation/standard) that will be used in the filename
 
-then you have to give the duration of the analysis (in upper round minutes)
+then you have to give the duration of the analysis (in upper rounded minutes)
 
 the live graph windows (gnuplot-qt) opens in fullscreen, and shows the message "waiting for data" in the right upper corner
 
@@ -73,7 +73,7 @@ graph starts automatically when analysis begins, and the windows closes after sp
 ```
 ./ezchromato_multi.sh 7
 ```
-launch infinite auto acquisition loop with 7 minutes analysis time
+this will launch acquisition loop (for autosampler) with 7 minutes analysis time, until you stop it
 
 timestamp + autoincremented number are used as filename
 
