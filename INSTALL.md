@@ -68,12 +68,12 @@ the live graph windows (gnuplot-qt) opens in fullscreen, and shows the message "
 
 graph starts automatically when analysis begins, and the windows closes after specified analysis time
 
-### autosampler analysis
+### multiple analysis
 
 ```
 ./ezchromato_multi.sh 7
 ```
-this will launch acquisition loop (for autosampler) with 7 minutes analysis time, until you stop it
+this will start an infinite acquisition loop (for autosampler) with an analysis time of 7 minutes
 
 timestamp + autoincremented number are used as filename
 
