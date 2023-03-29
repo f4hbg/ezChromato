@@ -1,8 +1,8 @@
 # ezChromato CDS
 
-ezChromato is a very simple open source DIY chromatography acquisition solution
+ezChromato is a very simple open source DIY chromatography data system
 
-based on an Arduino / ADS1220 24-bit ADC for acquisition
+based on an Arduino / ADS1220 24-bit ADC for data acquisition
 
 and a linux bash script UI for data recording and live graph
 
