@@ -53,7 +53,7 @@
 #define FULL_SCALE   (((long int)1<<23)-1)
 
 #define ADS1220_CS_PIN    7
-#define ADS1220_DRDY_PIN  6
+#define ADS1220_DRDY_PIN  2
 
 Protocentral_ADS1220 pc_ads1220;
 int32_t adc_data;
